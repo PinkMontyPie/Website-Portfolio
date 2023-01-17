@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+  font-family: "Product sans";
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links a,
+.cta,
+.overlay__content a {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #1E1E1E;
+  text-decoration: none;
+}
+
+.nav-links li {
+  padding: 0px 20px;
+}
+
+.contaiter-navbar {
+  padding-right: 2em;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: #34B3F1;
+}
+
+.contaitner-social {
+  display: flex;
+}
+
+.contaitner-social a {
+  transform: scale(2);
+  color: #1E1E1E;
+  margin: 1.2em;
+}
+
+a i {
+  transition: all 0.3s linear;
+}
+
+a:hover i {
+  transform: scale(1.2);
+}
+
+.btn-scoial-fb:hover {
+  color: #1F69DD;
+}
+
+.btn-scoial-li:hover {
+  color: #0077B5;
+}
+
+.contaiter-mobile-navbar {
+  display: none;
+}
+
+section {
+  padding: 30px 10%;
+}
+
+.hero .contaiter {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  margin-top: 80px;
+}
+.hero .contaiter .left-col h1 {
+  font-size: 100px;
+  width: 100%;
+  transition: all 0.7s ease 0s;
+}
+.hero .contaiter .left-col .hello {
+  color: #FD841F;
+}
+.hero .contaiter .left-col .name {
+  color: #1E1E1E;
+}
+.hero .contaiter .left-col .name span {
+  color: #34B3F1;
+}
+.hero .contaiter .left-col .port span {
+  color: #34B3F1;
+}
+.hero .contaiter .left-col .port span1 {
+  color: #FD841F;
+}
+.hero .contaiter .left-col .btn-contact-Me {
+  background: #34B3F1;
+  color: white;
+  text-decoration: none;
+  padding: 0.6em 1.3em;
+  font-size: 1.4em;
+  border-radius: 10px;
+  font-weight: bold;
+  display: inline-block;
+  transition: all 1s ease 0s;
+}
+.hero .contaiter .left-col .btn-contact-Me:hover {
+  background: #0a7cb5;
+}
+.hero .contaiter .left-col .btn-about-Me {
+  background: #FD841F;
+  color: white;
+  text-decoration: none;
+  padding: 0.6em 1.3em;
+  font-size: 1.4em;
+  border-radius: 10px;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 20px;
+  transition: all 1s ease 0s;
+}
+.hero .contaiter .left-col .btn-about-Me:hover {
+  background: #b04f00;
+}
+.hero .contaiter .left-col .main-cta {
+  margin-top: 50px;
+}
+
+.img-me {
+  width: 45%;
+  transition: all 1s ease 0s;
+}
+
+.img-me:hover {
+  transform: scale(1.1);
+}
+
+.footer {
+  background-color: #1E1E1E;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.text {
+  margin-top: 1em;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.footer-logo img {
+  transform: scale(0.6);
+}/*# sourceMappingURL=styles.css.map */
