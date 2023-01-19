@@ -189,6 +189,14 @@ section.about .about-me-list .text-about-me {
   margin-top: 0.5em;
   margin-bottom: 1em;
 }
+section.about .about-me-list .text-about-me .dot {
+  height: 20px;
+  width: 20px;
+  background-color: #34B3F1;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 25px;
+}
 section.about .about-me-list .text-name {
   font-size: 90px;
   line-height: 1.2em;
@@ -221,6 +229,64 @@ section.about .scoial-contaiter a {
 section.about img {
   width: 500px;
   border-radius: 10px;
+}
+
+section.skills {
+  background: #34B3F1;
+  left: 0;
+  top: 0;
+  color: #1E1E1E;
+  height: 900px;
+  width: 900px;
+}
+section.skills .container {
+  text-align: left;
+}
+section.skills h1 {
+  font-size: 40px;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+section.skills h1 .dot {
+  height: 20px;
+  width: 20px;
+  background-color: #FD841F;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+section.skills h2 {
+  width: 300px;
+  line-height: 60px;
+  font-size: 100px;
+  color: white;
+}
+section.skills h2 span {
+  color: #FD841F;
+}
+section.skills h3 {
+  margin-top: 2em;
+  font-size: 30px;
+}
+section.skills p {
+  margin-top: 1em;
+  font-weight: normal;
+  font-size: 30px;
+}
+section.skills .btn-contact-Me {
+  background: #FD841F;
+  color: white;
+  text-decoration: none;
+  padding: 0.6em 1.3em;
+  font-size: 1.4em;
+  border-radius: 10px;
+  font-weight: bold;
+  display: inline-block;
+  transition: all 1s ease 0s;
+  margin-top: 100px;
+}
+section.skills .btn-contact-Me:hover {
+  background: #b04f00;
 }
 
 .footer .container {
